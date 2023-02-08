@@ -17,6 +17,7 @@
 
 
 // 5: Write a function named checkStock that satisfies the following interaction pattern:
+// Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
 
 checkStock(4, "Coffee");
 // => "Coffee is stocked"
@@ -29,5 +30,3 @@ checkStock(0, "Cheese");
 
 checkStock(1, "Salsa");
 // => "Salsa - running LOW"
-
-// Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
