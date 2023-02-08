@@ -8,17 +8,15 @@
 
 
 // EX 1:
-function nameQuestion() {
-  console.log("Hello, what is your name?")
-}
+function askForName() { console.log("Hello, what is your name?") }
 
-nameQuestion()
+askForName()
 
 
 // EX 2:
 function addThreeNums(first, second, third) {
 var sum = first + second + third
-console.log(sum);
+return sum;
       }
 
 addThreeNums(1, 2, 3);
@@ -42,5 +40,5 @@ function average(num1, num2)
 var sum = num1 + num2;
     var avg = sum / 2;
 
-  console.log(`the average is: ${avg}`.)
+return avg
   }
