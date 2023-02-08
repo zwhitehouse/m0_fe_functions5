@@ -1,13 +1,22 @@
-// 1: Write a function named printGreeting that prints a simple greeting message, the same one, every time it is called. Call this function 3 times.
+// Defining Our Own Functions
+// For each exercise below, write the function according to the requirements. 
+// Call each method at least twice and store the return value in a variable. 
+// Use console.log() to see the return value in the console.
+
+// 1: Write a function named greeting that returns a string with a general greeting. 
 
 
-// 2: Write a function that accepts 1 argument. The function should console.log a sentence that interpolates the data passed in.
+// 2: Write a function named customGreeting that returns a greeting WITH a specific name.
 
 
-// 3: Write a function that has 3 parameters: a string and two numbers. The String will be the name of a company, and the numbers will represent the minimum and maximum of a pay range for a posted job. The function should print out a sentence that includes the name of the company and the range itself (if the numbers passed in are 90000 and 110000, the pay range is 20000).
+// 3: Write a function named greetPerson that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 
 
-// 4: Write a function that satifies the following interaction pattern:
+// 4: Write a function named square that takes in one number, and returns the square of that number.
+// BONUS: Print a sentence that interpolates the return value of your square function.
+
+
+// 5: Write a function named checkStock that satisfies the following interaction pattern:
 
 checkStock(4, "Coffee");
 // => "Coffee is stocked"
@@ -20,3 +29,5 @@ checkStock(0, "Cheese");
 
 checkStock(1, "Salsa");
 // => "Salsa - running LOW"
+
+// Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
