@@ -10,8 +10,8 @@
 // EX 1:
 function askForName() { console.log("Hello, what is your name?") }
 
-askForName()
-
+askForName();
+// I added the semicolen to signal the end of the line of code.
 
 // EX 2:
 function addThreeNums(first, second, third) {
@@ -19,26 +19,27 @@ var sum = first + second + third
 return sum;
       }
 
-addThreeNums(1, 2, 3);
-addThreeNums(4, 2, 7);
+console.log(addThreeNums(1, 2, 3));
+console.log(addThreeNums(4, 2, 7));
+// Here I added the console.log function so the result would display on the console.
 
 
 // EX 3:
-func makeFreshPesto(){
+function makeFreshPesto(){
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
   console.log("Slowly pour in oil");
-  console.log("Season");    }
+  console.log("Season");    
+}
 
 makeFreshPesto();
-
+// I moved the curly bracket down to the line below the rest of the function. I also finished the word "function" so the code knows we are declaring a function.
 
 //  EX 4:
-function average(num1, num2) 
-  {
+function average(num1, num2) {
 var sum = num1 + num2;
-    var avg = sum / 2;
-
+var avg = sum / 2;
 return avg
-  }
+}
+// I arranged the curly brackets so they are holding the code block within them.s
